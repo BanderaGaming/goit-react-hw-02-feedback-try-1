@@ -1,0 +1,9 @@
+.btn {
+  border-radius: 5px;
+  border-color: wheat;
+  font-weight: 500;
+}
+.btnFeld {
+  display: flex;
+  gap: 10px;
+}

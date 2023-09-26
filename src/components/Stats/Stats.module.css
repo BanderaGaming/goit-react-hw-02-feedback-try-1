@@ -1,0 +1,9 @@
+.stat {
+  font-size: large;
+  font-weight: bold;
+}
+.statsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
