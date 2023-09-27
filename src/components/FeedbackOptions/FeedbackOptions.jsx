@@ -1,4 +1,4 @@
-import css from 'components/FeedbackOptions/FeedbackOptions.module.css'
+import css from './FeedbackOptions.module.css'
 export function FeedbackOptions({options, onLeaveFeedback}) {
     return (
         <div className={css.btnFeld}>

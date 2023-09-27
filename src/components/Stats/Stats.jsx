@@ -1,4 +1,4 @@
-import css from 'components/Stats/Stats.module.css';
+import css from './Stats.module.css';
 
 export function Stats({good, neutral, bad, total, positiveProc}) {
     return (

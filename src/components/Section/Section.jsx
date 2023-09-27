@@ -1,11 +1,10 @@
-import css from 'components/Section/Section.module.css'
-import { Children } from 'react'
+import css from './Section.module.css'
 
-export function Section({title}) {
+export function Section({title,children}) {
     return (
         <div>
             <h4 className={css.title}>{title}</h4>
-            {Children}
+            {children}
 </div>
     )
 }
